@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/RPioneer/ITDVN_TEST/issues"
   },
-  "homepage": "https://github.com/RPioneer/ITDVN_TEST#readme"
+  "homepage": "https://github.com/RPioneer/ITDVN_TEST#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.2"
+  }
 }

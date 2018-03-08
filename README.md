@@ -16,7 +16,7 @@
 
 Если он не утсановлен - тогда ставим:
 
-> npm -install gulpjs/gulp-cli#4.A -g
+> npm -install gulpjs/gulp-cli#4.0 -g
 
 ## Инструкция для старта проекта
 
