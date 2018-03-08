@@ -1,0 +1,19 @@
+{
+  "name": "itdvn_test",
+  "version": "1.0.0",
+  "description": "Проверка версии Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RPioneer/ITDVN_TEST.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RPioneer/ITDVN_TEST/issues"
+  },
+  "homepage": "https://github.com/RPioneer/ITDVN_TEST#readme"
+}
