@@ -1,0 +1,26 @@
+header.header
+    .header__top
+        .container
+            .contacts
+                a.contact(href="tel:+7(495)777-77-77")
+                    i.fa.fa-mobile(aria-hidden="true")
+                    span.contact__text 777-777
+
+                a.contact(href="mailto:info@a.a")
+                    i.fa.fa-envelope.contact__icon--email(aria-hidden="true")
+                    span.contact__text info@a.a
+                
+                a.facebook-icon(href="facebook.com")
+                    i.fa.fa-facebook(aria-hidden="true")
+    .container
+        .header__bottom
+            .logo: img.logo__picture(src="images/logo.png" alt="logo")
+            nav.nav
+            - var items = ['Home', 'About us', 'Our work']
+                each item in items
+                    if item === 'Home'
+                        a.nav__link.nav__link--active(href="#")= item
+                    else 
+                        a.nav__link(href="#")= item
+
+            a.button.header_button.button--red(href="#") Free Consultation
